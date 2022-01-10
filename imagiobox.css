@@ -1,0 +1,101 @@
+#list{
+    list-style-type: none;
+    display: block;
+}
+#context{
+    padding:50px;
+}
+
+
+@media screen and (max-width: 1779px) {
+    .mainvideo{
+        display:block;
+    }
+    .overlay{
+        display: none;
+    }
+}
+@media screen and (min-width: 1300px) { 
+    .mainvideo{
+        position:absolute;
+        top: 0;
+        left: 0;
+    
+    }
+    .overlay{
+        height: 65vh;
+        padding: 50px;
+        overflow: auto;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        z-index: 1;
+        word-wrap: break-word;
+    }
+    .overlay strong{
+        font-size: 7rem;
+        text-align: center;
+        color: white;
+        z-index: 1;
+    }
+    .overlay p{
+        overflow-wrap: break-word;
+        font-size: 2rem;
+        text-align: center;
+        color: white;
+    }
+}
+
+.emaze{
+    height:100%;
+    width: 100%;
+}
+.footer{
+    padding-bottom: 50px;
+}
+.navbar-item, .navbar-link{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+section{
+    display: block;
+}
+img{
+    padding: 0px;
+}
+li{
+    display: block;
+}
+html,
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+body > footer {
+    margin-top: auto;
+}
+body{
+    background-image: url("https://drive.google.com/uc?export=view&id=1TdB2UafuX_gLwEyUGnagDZwVzRiwBCS7");
+    background-repeat:repeat;
+}
+
+
+input[type="email"]::placeholder {
+        
+    /* Firefox, Chrome, Opera */
+    color: rgb(170, 170, 170);
+}
+  
+input[type="email"]:-ms-input-placeholder {
+    
+    /* Internet Explorer 10-11 */
+    color: rgb(170, 170, 170);
+}
+  
+input[type="email"]::-ms-input-placeholder {
+    
+    /* Microsoft Edge */
+    color: rgb(170, 170, 170);
+}
